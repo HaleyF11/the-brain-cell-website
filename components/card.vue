@@ -6,6 +6,6 @@
 
 <style scoped>
 .card {
-  @apply shadow-lg shadow-orange-300 rounded-lg;
+  @apply shadow-lg shadow-orange-500 rounded-lg bg-orange-300;
 }
 </style>
