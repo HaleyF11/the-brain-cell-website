@@ -2,7 +2,7 @@
   <div>
     <!-- <img src="/tbctabard.png" alt="the brain cell guild crest" /> -->
     <h1 class="text-8xl uppercase text-center mb-5">The Brain Cell</h1>
-    <p v-if="isLoading">Loading images...</p>
+    <p v-if="isLoading" class="text-center text-5xl">Loading images...</p>
     <ImageGrid v-else :images="images" />
   </div>
 </template>
