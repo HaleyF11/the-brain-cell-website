@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto min-h-screen text-orange-700 max-w-screen-2xl">
+  <div class="mx-auto min-h-screen text-orange-700 max-w-screen-2xl pb-20">
     <header
       class="flex justify-between pt-3 mb-8 border-orange-300 border-b pb-2"
     >
