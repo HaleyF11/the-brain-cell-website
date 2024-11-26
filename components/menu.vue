@@ -8,6 +8,9 @@
         <NuxtLink to="/about" class="link">About</NuxtLink>
       </li>
       <li>
+        <NuxtLink to="/gallery" class="link">Gallery</NuxtLink>
+      </li>
+      <li>
         <NuxtLink to="/discord" class="link">Discord</NuxtLink>
       </li>
     </ul>
