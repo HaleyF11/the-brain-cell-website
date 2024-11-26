@@ -2,11 +2,13 @@
   <div>
     <!-- <img src="/tbctabard.png" alt="the brain cell guild crest" /> -->
     <h1 class="text-8xl uppercase text-center mb-5">The Brain Cell</h1>
-    <ImageGrid :images="images" />
+    <p v-if="isLoading">Loading images...</p>
+    <ImageGrid v-else :images="images" />
   </div>
 </template>
 
 <script lang="ts" setup>
+const isLoading = ref(true);
 const images = [
   {
     link: "/images/ANSUREK_AOTC_banner.jpg",
@@ -49,6 +51,9 @@ const images = [
     title: "Despair in visual form",
   },
 ];
+onMounted(() => {
+  isLoading.value = false;
+});
 </script>
 
 <style>
